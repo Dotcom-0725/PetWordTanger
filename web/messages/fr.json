@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "siteName": "Tanger Animalerie",
+    "tagline": "Trouvez votre nouveau compagnon. Tout ce qu'il lui faut.",
+    "defaultDescription": "Animalerie premium à Tanger depuis 2015 : oiseaux, chats et chiens élevés localement, alimentation, accessoires et santé animale."
+  },
+  "nav": {
+    "home": "Accueil",
+    "animals": "Animaux Vivants",
+    "shop": "Boutique",
+    "about": "À propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "wholesale": "Grossistes",
+    "search": "Rechercher un animal, un produit...",
+    "cart": "Panier",
+    "wishlist": "Favoris",
+    "account": "Mon compte",
+    "login": "Connexion",
+    "designSystem": "Design System"
+  },
+  "hero": {
+    "eyebrow": "11 ans d'expertise à Tanger",
+    "titleLine1": "Trouvez votre nouveau",
+    "titleEm": "compagnon",
+    "titleLine2": "Tout ce qu'il lui faut, ici.",
+    "lead": "Oiseaux, chats et chiens élevés localement avec soin — accompagnés de toute l'alimentation, les accessoires et les soins dont ils ont besoin.",
+    "ctaPrimary": "Découvrir les animaux",
+    "ctaSecondary": "Voir la boutique",
+    "ctaExpert": "Consulter un expert",
+    "statsYears": "Années d'expérience",
+    "statsHealth": "Santé Garantie",
+    "statsReviews": "Avis clients (860+)",
+    "statsWholesale": "Grossiste bienvenu"
+  },
+  "trust": {
+    "yearsTitle": "11 ans d'expérience",
+    "yearsSub": "Reconnu à Tanger depuis 2015",
+    "healthTitle": "Santé garantie",
+    "healthSub": "Certificat vétérinaire à chaque animal",
+    "breedingTitle": "Élevage local",
+    "breedingSub": "Élevage visitable à Tanger",
+    "deliveryTitle": "Livraison rapide",
+    "deliverySub": "Tanger et environs sous 24h"
+  },
+  "common": {
+    "viewAll": "Voir tout",
+    "addToCart": "Ajouter au panier",
+    "reserve": "Réserver",
+    "reserveOnWhatsapp": "Réserver sur WhatsApp",
+    "outOfStock": "Rupture de stock",
+    "healthGuaranteed": "Santé garantie",
+    "loading": "Chargement...",
+    "results": "résultats",
+    "filters": "Filtres",
+    "sortBy": "Trier par",
+    "price": "Prix",
+    "clearAll": "Tout effacer",
+    "readMore": "Lire la suite",
+    "submit": "Envoyer",
+    "name": "Nom complet",
+    "phone": "Téléphone",
+    "email": "Email",
+    "message": "Message",
+    "required": "Ce champ est requis"
+  },
+  "cart": {
+    "title": "Votre panier",
+    "empty": "Votre panier est vide",
+    "total": "Total",
+    "checkout": "Passer à la commande",
+    "continueShopping": "Continuer mes achats"
+  },
+  "checkout": {
+    "title": "Finaliser ma commande",
+    "shippingInfo": "Coordonnées de livraison",
+    "address": "Adresse de livraison",
+    "paymentMethod": "Mode de paiement",
+    "cod": "Paiement à la livraison",
+    "confirm": "Confirmer la commande"
+  },
+  "footer": {
+    "description": "Animalerie familiale depuis 2015 — élevage, vente et conseil pour vos compagnons à Tanger.",
+    "shop": "Boutique",
+    "company": "Entreprise",
+    "contact": "Contact",
+    "rights": "Tous droits réservés."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "Cette page n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  }
+}

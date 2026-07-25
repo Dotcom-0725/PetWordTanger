@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "siteName": "Tanger Animalerie",
+    "tagline": "Find your new companion. Shop every essential.",
+    "defaultDescription": "Premium pet shop in Tangier since 2015: locally bred birds, cats and dogs, food, accessories and animal healthcare."
+  },
+  "nav": {
+    "home": "Home",
+    "animals": "Live Animals",
+    "shop": "Shop",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "wholesale": "Wholesale",
+    "search": "Search an animal, a product...",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "account": "My Account",
+    "login": "Login",
+    "designSystem": "Design System"
+  },
+  "hero": {
+    "eyebrow": "11 years of expertise in Tangier",
+    "titleLine1": "Find your new",
+    "titleEm": "companion",
+    "titleLine2": "Shop every essential, here.",
+    "lead": "Birds, cats and dogs bred locally with care — alongside every food, accessory and health need they'll ever have.",
+    "ctaPrimary": "Discover animals",
+    "ctaSecondary": "Shop essentials",
+    "ctaExpert": "Consult an expert",
+    "statsYears": "Years of experience",
+    "statsHealth": "Health Guaranteed",
+    "statsReviews": "Customer reviews (860+)",
+    "statsWholesale": "Wholesale welcome"
+  },
+  "trust": {
+    "yearsTitle": "11 years experience",
+    "yearsSub": "Trusted in Tangier since 2015",
+    "healthTitle": "Health guaranteed",
+    "healthSub": "Vet certificate with every animal",
+    "breedingTitle": "Local breeding",
+    "breedingSub": "Facility visitable in Tangier",
+    "deliveryTitle": "Fast delivery",
+    "deliverySub": "Tangier and surroundings within 24h"
+  },
+  "common": {
+    "viewAll": "View all",
+    "addToCart": "Add to cart",
+    "reserve": "Reserve",
+    "reserveOnWhatsapp": "Reserve on WhatsApp",
+    "outOfStock": "Out of stock",
+    "healthGuaranteed": "Health guaranteed",
+    "loading": "Loading...",
+    "results": "results",
+    "filters": "Filters",
+    "sortBy": "Sort by",
+    "price": "Price",
+    "clearAll": "Clear all",
+    "readMore": "Read more",
+    "submit": "Submit",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "required": "This field is required"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Proceed to checkout",
+    "continueShopping": "Continue shopping"
+  },
+  "checkout": {
+    "title": "Complete your order",
+    "shippingInfo": "Shipping details",
+    "address": "Delivery address",
+    "paymentMethod": "Payment method",
+    "cod": "Cash on delivery",
+    "confirm": "Confirm order"
+  },
+  "footer": {
+    "description": "Family-run pet shop since 2015 — breeding, retail and advice for your companions in Tangier.",
+    "shop": "Shop",
+    "company": "Company",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "This page doesn't exist or has moved.",
+    "cta": "Back to home"
+  }
+}

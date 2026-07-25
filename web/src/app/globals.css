@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Nature Green + Sky Blue + Warm Orange premium system */
+    --background: 0 0% 100%;
+    --foreground: 150 14% 10%;
+
+    --primary: 152 55% 39%;         /* green-500 #2F9E63 */
+    --primary-foreground: 0 0% 100%;
+    --primary-50: 150 42% 94%;
+    --primary-100: 150 38% 87%;
+    --primary-700: 152 58% 27%;      /* green-700 #1B6B44 */
+    --primary-900: 152 60% 15%;      /* green-900 #0F3D28 */
+
+    --secondary-100: 200 78% 91%;
+    --secondary-600: 200 60% 49%;
+    --secondary: 200 78% 91%;
+    --secondary-foreground: 200 60% 25%;
+
+    --accent: 24 96% 62%;            /* orange-500 #FF8A3D */
+    --accent-foreground: 0 0% 100%;
+    --accent-600: 24 79% 51%;
+
+    --muted: 150 15% 96%;
+    --muted-foreground: 150 8% 42%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 150 14% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 14% 10%;
+
+    --destructive: 4 62% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 150 15% 90%;
+    --input: 150 15% 90%;
+    --ring: 152 55% 39%;
+
+    --radius-sm: 0.75rem;
+    --radius-md: 1.25rem;
+    --radius-lg: 1.75rem;
+    --radius-xl: 2.25rem;
+  }
+
+  .dark {
+    --background: 152 24% 8%;
+    --foreground: 150 20% 94%;
+    --primary: 152 45% 45%;
+    --primary-foreground: 152 60% 10%;
+    --primary-50: 152 30% 14%;
+    --primary-100: 152 28% 18%;
+    --primary-700: 150 35% 70%;
+    --primary-900: 150 20% 94%;
+    --secondary: 200 30% 18%;
+    --secondary-foreground: 200 60% 80%;
+    --secondary-100: 200 30% 16%;
+    --secondary-600: 200 70% 65%;
+    --accent: 24 90% 60%;
+    --accent-foreground: 152 60% 10%;
+    --accent-600: 24 85% 68%;
+    --muted: 152 18% 14%;
+    --muted-foreground: 150 12% 65%;
+    --card: 152 22% 11%;
+    --card-foreground: 150 20% 94%;
+    --popover: 152 22% 11%;
+    --popover-foreground: 150 20% 94%;
+    --destructive: 4 55% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 152 18% 20%;
+    --input: 152 18% 20%;
+    --ring: 152 45% 45%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "cv11", "ss01";
+    font-variant-numeric: tabular-nums;
+  }
+  html[dir="rtl"] body {
+    @apply font-arabic;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-background/70 backdrop-blur-xl backdrop-saturate-150 border border-white/10;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .gradient-primary {
+    background-image: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-700)) 100%);
+  }
+  .gradient-accent {
+    background-image: linear-gradient(135deg, hsl(24 96% 70%) 0%, hsl(var(--accent-600)) 100%);
+  }
+  .gradient-mesh {
+    background-image:
+      radial-gradient(circle at 15% 20%, hsla(200, 78%, 60%, 0.16), transparent 45%),
+      radial-gradient(circle at 85% 15%, hsla(24, 96%, 62%, 0.14), transparent 40%),
+      radial-gradient(circle at 50% 100%, hsla(152, 55%, 39%, 0.16), transparent 45%);
+  }
+}
