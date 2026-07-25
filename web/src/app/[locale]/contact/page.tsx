@@ -56,9 +56,17 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
               title="Localisation Tanger Animalerie"
               className="h-full w-full border-0"
               loading="lazy"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-5.860%2C35.750%2C-5.780%2C35.790&layer=mapnik&marker=35.770%2C-5.820"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-5.8259%2C35.7436%2C-5.8059%2C35.7636&layer=mapnik&marker=35.7536%2C-5.8159"
             />
           </div>
+          <a
+            href="https://maps.app.goo.gl/TKPRfKH18HFGBzRi9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-center text-xs font-semibold text-primary-700"
+          >
+            Voir sur Google Maps →
+          </a>
         </div>
       </div>
     </div>
