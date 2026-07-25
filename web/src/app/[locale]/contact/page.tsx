@@ -26,9 +26,9 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
         <div className="space-y-6">
           <div className="space-y-5">
             {[
-              { icon: "📍", label: "Adresse", value: "Route de Rabat, Tanger, Maroc" },
+              { icon: "📍", label: "Adresse", value: "Bni Makada, Tanger 90060, Maroc" },
               { icon: "🕐", label: "Horaires", value: "Lun–Sam · 9h00–19h30 · Dimanche fermé" },
-              { icon: "☎", label: "Téléphone", value: "+212 6XX-XXXXXX" },
+              { icon: "☎", label: "Téléphone", value: "+212 644-498909" },
             ].map((info) => (
               <div key={info.label} className="flex gap-4">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary-50 text-lg">{info.icon}</span>

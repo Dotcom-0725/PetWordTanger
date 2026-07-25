@@ -35,8 +35,8 @@ export function Footer() {
         <div>
           <h5 className="mb-4 text-sm font-bold text-white">{t("contact")}</h5>
           <ul className="space-y-2.5 text-sm">
-            <li>📍 Route de Rabat, Tanger</li>
-            <li>☎ +212 6XX-XXXXXX</li>
+            <li>📍 Bni Makada, Tanger 90060</li>
+            <li>☎ +212 644-498909</li>
             <li><Link href="/contact">{tNav("contact")}</Link></li>
           </ul>
         </div>

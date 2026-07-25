@@ -3,7 +3,7 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/motion/reveal";
 const DELIVERY = [
   { icon: "🚚", title: "Livraison à Tanger", desc: "Sous 24h pour l'alimentation, les accessoires et les médicaments." },
   { icon: "📦", title: "Livraison Nationale", desc: "2 à 4 jours ouvrés vers les autres villes, paiement à la livraison disponible." },
-  { icon: "🏬", title: "Retrait en Boutique", desc: "Route de Rabat, Tanger — Lun-Sam, 9h à 19h30." },
+  { icon: "🏬", title: "Retrait en Boutique", desc: "Bni Makada, Tanger 90060 — Lun-Sam, 9h à 19h30." },
 ];
 
 export function DeliveryInfo() {

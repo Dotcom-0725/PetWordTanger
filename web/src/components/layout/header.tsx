@@ -88,7 +88,7 @@ export function Header() {
             </Button>
             <CartDrawer />
             <Button asChild size="sm" className="hidden md:inline-flex">
-              <a href="https://wa.me/212600000000" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/212644498909" target="_blank" rel="noopener noreferrer">
                 💬 WhatsApp
               </a>
             </Button>

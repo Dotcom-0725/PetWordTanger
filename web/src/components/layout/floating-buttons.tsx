@@ -31,7 +31,7 @@ export function FloatingButtons() {
       </AnimatePresence>
 
       <a
-        href="tel:+212600000000"
+        href="tel:+212644498909"
         aria-label="Appeler la boutique"
         className="flex h-14 w-14 items-center justify-center rounded-full gradient-primary text-white shadow-glow"
       >
@@ -39,7 +39,7 @@ export function FloatingButtons() {
       </a>
 
       <a
-        href="https://wa.me/212600000000"
+        href="https://wa.me/212644498909"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Contacter sur WhatsApp"

@@ -6,13 +6,14 @@ export function localBusinessJsonLd() {
     "@type": "PetStore",
     name: "Tanger Animalerie",
     url: SITE_URL,
-    telephone: "+212600000000",
+    telephone: "+212644498909",
     priceRange: "$$",
     image: `${SITE_URL}/og-image.jpg`,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Route de Rabat",
+      streetAddress: "Bni Makada",
       addressLocality: "Tanger",
+      postalCode: "90060",
       addressCountry: "MA",
     },
     openingHoursSpecification: {
