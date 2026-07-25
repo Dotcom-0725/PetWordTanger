@@ -33,7 +33,7 @@ export function LocaleSwitcher() {
         {LOCALES.map((l) => (
           <DropdownMenuItem
             key={l.code}
-            onClick={() => router.replace(pathname, { locale: l.code })}
+            onClick={() => router.replace(pathname as never, { locale: l.code })}
             className={locale === l.code ? "bg-primary-50 text-primary-700" : ""}
           >
             {l.label}

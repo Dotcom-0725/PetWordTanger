@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 import { PlayCircle } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Counter } from "@/components/motion/counter";
 
 export function Hero() {
@@ -127,13 +127,14 @@ export function Hero() {
 
       <Dialog open={videoOpen} onOpenChange={setVideoOpen}>
         <DialogContent className="w-[calc(100%-2rem)] max-w-3xl overflow-hidden border-none bg-black p-0 sm:w-full">
+          <DialogTitle className="sr-only">Vidéo du Perroquet Gris du Gabon</DialogTitle>
           <video
             src="/videos/parrot-hero.mp4"
             poster="/images/animals/parrot-1.jpg"
             controls
             autoPlay
             playsInline
-            className="aspect-video w-full"
+            className="aspect-video w-full object-contain"
           >
             Votre navigateur ne supporte pas la lecture vidéo.
           </video>

@@ -7,10 +7,13 @@ export const routing = defineRouting({
   pathnames: {
     "/": "/",
     "/animals": { fr: "/animaux", ar: "/الحيوانات", en: "/animals" },
+    "/animals/[slug]": { fr: "/animaux/[slug]", ar: "/الحيوانات/[slug]", en: "/animals/[slug]" },
     "/shop": { fr: "/boutique", ar: "/المتجر", en: "/shop" },
+    "/shop/[slug]": { fr: "/boutique/[slug]", ar: "/المتجر/[slug]", en: "/shop/[slug]" },
     "/about": { fr: "/a-propos", ar: "/من-نحن", en: "/about" },
     "/contact": { fr: "/contact", ar: "/اتصل-بنا", en: "/contact" },
     "/blog": { fr: "/blog", ar: "/المدونة", en: "/blog" },
+    "/blog/[slug]": { fr: "/blog/[slug]", ar: "/المدونة/[slug]", en: "/blog/[slug]" },
     "/cart": { fr: "/panier", ar: "/السلة", en: "/cart" },
     "/wishlist": { fr: "/favoris", ar: "/المفضلة", en: "/wishlist" },
     "/checkout": { fr: "/commande", ar: "/الدفع", en: "/checkout" },
