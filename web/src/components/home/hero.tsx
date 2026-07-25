@@ -17,7 +17,7 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden gradient-mesh py-16 md:py-24">
       <div className="container grid items-center gap-10 lg:grid-cols-2">
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+        <div>
           <span className="mb-5 inline-flex items-center gap-2 rounded-full bg-primary-50 px-4 py-2 text-xs font-bold uppercase tracking-wide text-primary-700">
             🌿 {t("eyebrow")}
           </span>
@@ -60,14 +60,9 @@ export function Hero() {
               <span className="text-xs text-muted-foreground">{t("statsWholesale")}</span>
             </div>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.94 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.7, delay: 0.15 }}
-          className="relative h-[280px] sm:h-[380px] md:h-[460px]"
-        >
+        <div className="relative h-[280px] sm:h-[380px] md:h-[460px]">
           <div
             className="absolute inset-0 overflow-hidden shadow-glow"
             style={{ borderRadius: "38% 62% 55% 45% / 48% 42% 58% 52%" }}
@@ -122,7 +117,7 @@ export function Hero() {
               </div>
             </motion.div>
           </Link>
-        </motion.div>
+        </div>
       </div>
 
       <Dialog open={videoOpen} onOpenChange={setVideoOpen}>
