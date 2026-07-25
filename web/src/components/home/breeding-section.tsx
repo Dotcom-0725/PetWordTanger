@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/motion/reveal";
@@ -32,7 +33,20 @@ export function BreedingSection() {
           </div>
         </Reveal>
         <Reveal delay={0.1}>
-          <div className="relative h-[300px] gradient-primary shadow-glow md:h-[380px]" style={{ borderRadius: "38% 62% 55% 45% / 48% 42% 58% 52%" }} />
+          <div
+            className="relative h-[300px] overflow-hidden shadow-glow md:h-[380px]"
+            style={{ borderRadius: "38% 62% 55% 45% / 48% 42% 58% 52%" }}
+          >
+            <Image
+              src="/images/facility/breeding-facility.jpg"
+              alt="Élevage local Tanger Animalerie — environnement propre et surveillé"
+              fill
+              loading="lazy"
+              sizes="(max-width: 1024px) 90vw, 45vw"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary-900/30 via-transparent to-transparent" />
+          </div>
         </Reveal>
       </div>
     </section>

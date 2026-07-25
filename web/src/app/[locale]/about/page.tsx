@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
@@ -82,7 +83,20 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </Reveal>
 
           <Reveal delay={0.1}>
-            <div className="sticky top-24 h-[420px] gradient-primary shadow-glow" style={{ borderRadius: "38% 62% 55% 45% / 48% 42% 58% 52%" }} />
+            <div
+              className="sticky top-24 h-[420px] overflow-hidden shadow-glow"
+              style={{ borderRadius: "38% 62% 55% 45% / 48% 42% 58% 52%" }}
+            >
+              <Image
+                src="/images/facility/breeding-facility.jpg"
+                alt="Élevage local Tanger Animalerie — environnement propre et surveillé"
+                fill
+                loading="lazy"
+                sizes="(max-width: 1024px) 90vw, 45vw"
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary-900/30 via-transparent to-transparent" />
+            </div>
           </Reveal>
         </div>
       </div>
